@@ -1,0 +1,110 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.Net\\Test1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC0EC28-3127-4E19-BD9E-E2BA220D0109}|Test1\\Test1.csproj|d:\\.net\\test1\\test1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC0EC28-3127-4E19-BD9E-E2BA220D0109}|Test1\\Test1.csproj|solutionrelative:test1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC0EC28-3127-4E19-BD9E-E2BA220D0109}|Test1\\Test1.csproj|d:\\.net\\test1\\test1\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BBC0EC28-3127-4E19-BD9E-E2BA220D0109}|Test1\\Test1.csproj|solutionrelative:test1\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC0EC28-3127-4E19-BD9E-E2BA220D0109}|Test1\\Test1.csproj|d:\\.net\\test1\\test1\\thongtin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC0EC28-3127-4E19-BD9E-E2BA220D0109}|Test1\\Test1.csproj|solutionrelative:test1\\thongtin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC0EC28-3127-4E19-BD9E-E2BA220D0109}|Test1\\Test1.csproj|d:\\.net\\test1\\test1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BBC0EC28-3127-4E19-BD9E-E2BA220D0109}|Test1\\Test1.csproj|solutionrelative:test1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC0EC28-3127-4E19-BD9E-E2BA220D0109}|Test1\\Test1.csproj|d:\\.net\\test1\\test1\\models\\qlsachcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC0EC28-3127-4E19-BD9E-E2BA220D0109}|Test1\\Test1.csproj|solutionrelative:test1\\models\\qlsachcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 314,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\.Net\\Test1\\Test1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Test1\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\.Net\\Test1\\Test1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Test1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA1wCQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T17:15:30.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\.Net\\Test1\\Test1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Test1\\MainWindow.xaml",
+              "ToolTip": "D:\\.Net\\Test1\\Test1\\MainWindow.xaml",
+              "RelativeToolTip": "Test1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-13T17:15:37.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QlsachContext.cs",
+              "DocumentMoniker": "D:\\.Net\\Test1\\Test1\\Models\\QlsachContext.cs",
+              "RelativeDocumentMoniker": "Test1\\Models\\QlsachContext.cs",
+              "ToolTip": "D:\\.Net\\Test1\\Test1\\Models\\QlsachContext.cs",
+              "RelativeToolTip": "Test1\\Models\\QlsachContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T18:43:59.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Window1.xaml",
+              "DocumentMoniker": "D:\\.Net\\Test1\\Test1\\Window1.xaml",
+              "RelativeDocumentMoniker": "Test1\\Window1.xaml",
+              "ToolTip": "D:\\.Net\\Test1\\Test1\\Window1.xaml",
+              "RelativeToolTip": "Test1\\Window1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-14T01:18:02.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ThongTin.cs",
+              "DocumentMoniker": "D:\\.Net\\Test1\\Test1\\ThongTin.cs",
+              "RelativeDocumentMoniker": "Test1\\ThongTin.cs",
+              "ToolTip": "D:\\.Net\\Test1\\Test1\\ThongTin.cs",
+              "RelativeToolTip": "Test1\\ThongTin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T18:56:51.643Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

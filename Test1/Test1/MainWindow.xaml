@@ -1,0 +1,41 @@
+﻿<Window x:Class="Test1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="351*"/>
+            <ColumnDefinition Width="49*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Năm Xuất Bản" HorizontalAlignment="Left" Margin="77,140,0,0" VerticalAlignment="Top"/>
+        <Label Content="Số Trang" HorizontalAlignment="Left" Margin="77,184,0,0" VerticalAlignment="Top"/>
+        <Label Content="Tác Giả" HorizontalAlignment="Left" Margin="77,228,0,0" VerticalAlignment="Top"/>
+        <Label Content="Tên Sách" HorizontalAlignment="Left" Margin="77,95,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="___No_Name_" Content="Mã Sách" HorizontalAlignment="Left" Margin="77,52,0,0" VerticalAlignment="Top"/>
+        <DataGrid Name="dgv_dsSach" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="800"  Margin="0,280,0,0" Grid.ColumnSpan="2" SelectedCellsChanged="dgv_dsSach_SelectedCellsChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Mã Sách" Width="100" Binding="{Binding MaSach}"/>
+                <DataGridTextColumn Header="Tên Sách" Width="120" Binding="{Binding TenSach}"/>
+                <DataGridTextColumn Header="Năm Xuất Bản" Width="100" Binding="{Binding NamXB}"/>
+                <DataGridTextColumn Header="Số Trang" Width="80" Binding="{Binding SoTrang}"/>
+                <DataGridTextColumn Header="Mã Tác Giả" Width="100" Binding="{Binding MaTG}"/>
+                <DataGridTextColumn Header="Thành Tiền" Width="150" FontStyle="Italic" Foreground="Red" Binding="{Binding TongTien}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBox Name="txtMaSach" HorizontalAlignment="Left" Margin="193,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtTenSach" HorizontalAlignment="Left" Margin="193,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtNamXB" HorizontalAlignment="Left" Margin="193,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtSoTrang" HorizontalAlignment="Left" Margin="193,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ComboBox Name="cboTG" HorizontalAlignment="Left" Margin="193,233,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Name="bntSua" Content="Sửa" HorizontalAlignment="Left" Margin="431,98,0,0" VerticalAlignment="Top" Width="86" Background="#FFB9B1B1" Click="bntSua_Click"/>
+        <Button Name="bntXoa" Content="Xóa" HorizontalAlignment="Left" Margin="431,131,0,0" VerticalAlignment="Top" Width="86" Background="#FFB9B1B1" Click="bntXoa_Click"/>
+        <Button Name="bntThem" Content="Thêm" HorizontalAlignment="Left" Margin="431,66,0,0" VerticalAlignment="Top" Width="86" Background="#FFB9B1B1" Click="bntThem_Click"/>
+        <Button Name="bntThongKe" Content="Thống kê" HorizontalAlignment="Left" Margin="431,163,0,0" VerticalAlignment="Top" Width="86" Background="#FFB9B1B1" Click="bntThongKe_Click"/>
+
+    </Grid>
+</Window>
